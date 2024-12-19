@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+    overflow-x: hidden;
+}
+
+.container {
+  max-width: 1152px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+:root {
+  --light-gray: #707070;
+  --gray-hover: #6f6f6f;
+  --dark-blue: #00215B;
+  --dark-red: #970000;
+  --dark-gray: #2a2a2a;
+}
