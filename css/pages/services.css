@@ -34,9 +34,18 @@
 	font-size: 16px;
 }
 
+.services-hero .breadcrumb a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.services-hero .breadcrumb a:hover {
+  color: var(--light-gray);
+}
 /* Services Grid */
 .services {
-	padding: 80px 0;
+	padding: 200px 0 100px;
 }
 
 .services-grid {

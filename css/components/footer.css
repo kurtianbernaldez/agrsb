@@ -36,3 +36,14 @@
   margin-bottom: 10px;
   font-size: 0.8rem;
 }
+
+
+@media (max-width: 767px) {
+  .footer-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}

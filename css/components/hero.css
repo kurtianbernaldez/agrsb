@@ -1,0 +1,45 @@
+/* Hero section */
+.hero {
+	margin-top: 100px;
+	position: relative;
+	height: 400px;
+	overflow: hidden;
+}
+
+.hero .hero-image {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.hero .hero-content {
+	position: absolute;
+	top: 50%;
+	left: 25%;
+	transform: translate(-50%);
+	color: #fff;
+	z-index: 1;
+}
+
+.hero h1 {
+	font-size: 48px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.hero .breadcrumb {
+	font-size: 16px;
+}
+
+.hero .breadcrumb a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.hero .breadcrumb a:hover {
+  color: deepskyblue;
+}
